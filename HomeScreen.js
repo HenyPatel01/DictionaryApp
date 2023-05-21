@@ -76,7 +76,7 @@ getWord=(word)=>{
 
                 <TouchableOpacity style={styles.searchButton} 
                 onPress={()=>{this.setState({isSearchPressed: true}); this.getWord(this.state.text)}}>
-                <Text style = {{textAlign: 'center', fontSize: 20, color: "white"}}>Search</Text>
+                <Text style = {{textAlign: 'center', fontSize: 20, color: "black"}}>Search</Text>
                 </TouchableOpacity>
 
                 <View>
