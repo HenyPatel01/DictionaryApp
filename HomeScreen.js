@@ -58,7 +58,7 @@ getWord=(word)=>{
         return(
         <SafeAreaProvider>
             <View>
-                <Header backgroundColor="#b8e0d2" centerComponent={{text:'Monkey Chunky', style:{color:'#fff', fontSize:20}}}/>
+                <Header backgroundColor="#b8e0d2" centerComponent={{text:'Pocket Dictionary', style:{color:'#fff', fontSize:20}}}/>
                 <TextInput
                  style={styles.inputBox}
                  onChangeText={text => {
