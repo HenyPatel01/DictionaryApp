@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, TextInput, TouchableOpacity, ScrollView, Button } from 'react-native';
-import { Header } from 'react-native-elements';
+import { Header } from '@rneui/themed';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 export default class HomeScreen extends React.Component {
